@@ -2,11 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  scroll-behavior: smooth;
-}
-
-body {
-  color: whitesmoke;
-  background-color: black;
+@font-face {
+  font-family: "UK";
+  src: url("../../public/font/UnitedKingdom.otf");
 }
