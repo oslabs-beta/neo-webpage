@@ -7,20 +7,6 @@
 }
 
 body {
-  color: white;
-  background-color: black;
-}
-
-
-.footer {
   color: whitesmoke;
-  /* border: 1px solid blue; */
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 100vw;
-  height: 15vh;
-  /* position: absolute;
-  bottom: -15vh; */
-  border-top: 1px solid white;
+  background-color: black;
 }
