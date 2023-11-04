@@ -1,5 +1,4 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import Contact from "./Components/Card";
 
 export default function Home() {
   return (
@@ -14,6 +13,9 @@ export default function Home() {
         <a href="#test1">Test 3</a>
       </div>
       <div className='m-[200px]'>
+      </div>
+      <div id='team'>
+        <Contact />
       </div>
     </main>
   )
