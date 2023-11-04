@@ -14,7 +14,7 @@ function Card({ name, key, pfp, linkedin, github }: cardProps) {
     <div
       id={name.split(' ')[0]}
       key={`${key}`}
-      className="grid min-w-fit w-3/12 h-max justify-center bg-slate-300 m-5 rounded-lg p-7 transition-all ease-in-out hover:border-zinc-50 hover:border-2 text-black"
+      className="grid min-w-fit justify-center bg-slate-500/80 m-5 rounded-2xl px-7 py-5 transition-all duration-75 hover:border-zinc-50 hover:border-2 text-black"
     >
       <Link href={linkedin}>
         <Image
@@ -25,7 +25,7 @@ function Card({ name, key, pfp, linkedin, github }: cardProps) {
           alt={`Image of ${name}`}
         />
       </Link>
-      <p className="text-lg text-center mt-5">{name}</p>
+      <p className="text-lg text-center mt-3">{name}</p>
       <p className="text-sm text-center mt-1 mb-3">
         Software Engineer
       </p>
@@ -99,7 +99,7 @@ export default function Contact() {
   return (
     <div id="content">
       <header id="pageHeaderContact" hidden>Contact</header>
-      <div className="flex flex-wrap justify-center py-5">{cards}</div>
+      <div className="flex flex-wrap items-center justify-center py-5">{cards}</div>
     </div>
   );
 }
