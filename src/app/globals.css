@@ -4,11 +4,11 @@
 
 * {
   scroll-behavior: smooth;
-  background-color: black;
 }
 
 body {
   color: white;
+  background-color: black;
 }
 
 
