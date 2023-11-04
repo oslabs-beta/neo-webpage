@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export default function Footer() {
   return (
-    <footer className="flex items-center mb-10 justify-around h-[15vh]">
+    <footer className="flex items-center my-7 justify-around h-[15vh] text-sm">
       <div>
         <Image src="/Neo-White.png" width={169} height={169} alt="Neo Logo" />
       </div>

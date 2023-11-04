@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function NavBar() {
 
   return (
-    <nav className="p-5">
+    <nav className="p-5 sticky top-0 z-9999 bg-[rgba(29,15,43,0.75)] border-b-2 border-black">
       <div className="flex flex-wrap items-center justify-between gap-x-10">
         <div className="flex items-center justify-around gap-x-8">
           <Image className='mx-5' src="/Neo-White.png" width={125} height={125} priority={true} alt="Neo Logo" />
