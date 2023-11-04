@@ -9,12 +9,12 @@ type cardProps = {
   github: string;
 };
 
-export function Card({ name, key, pfp, linkedin, github }: cardProps) {
+function Card({ name, key, pfp, linkedin, github }: cardProps) {
   return (
     <div
       id={name.split(' ')[0]}
       key={`${key}`}
-      className="grid min-w-fit w-3/12 h-max justify-center bg-slate-300 m-5 rounded-lg p-7 transition-all ease-in-out hover:border-zinc-50 hover:border-2"
+      className="grid min-w-fit w-3/12 h-max justify-center bg-slate-300 m-5 rounded-lg p-7 transition-all ease-in-out hover:border-zinc-50 hover:border-2 text-black"
     >
       <Link href={linkedin}>
         <Image
@@ -22,11 +22,11 @@ export function Card({ name, key, pfp, linkedin, github }: cardProps) {
           src={pfp}
           width={200}
           height={200}
-          alt="Image of someone"
+          alt={`Image of ${name}`}
         />
       </Link>
-      <p className="text-lg text-center mt-5 text-black">{name}</p>
-      <p className="text-sm text-center mt-1 mb-3 text-black">
+      <p className="text-lg text-center mt-5">{name}</p>
+      <p className="text-sm text-center mt-1 mb-3">
         Software Engineer
       </p>
       <div className="flex justify-center">
@@ -53,7 +53,7 @@ export function Card({ name, key, pfp, linkedin, github }: cardProps) {
   );
 }
 
-export function Contact() {
+export default function Contact() {
   const people: string[] = [
     'Tom Nguyen',
     'Justin Shim',
@@ -63,18 +63,18 @@ export function Contact() {
   ];
 
   const pfps: string[] = [
-    '/tom-pfp.jpeg',
-    '/justin-pfp.jpeg',
-    '/nitesh-pfp.jpeg',
-    '/donald-pfp.jpeg',
-    '/benson-pfp.jpeg',
+    '/pfps/tom-pfp.jpeg',
+    '/pfps/justin-pfp.jpeg',
+    '/pfps/nitesh-pfp.jpeg',
+    '/pfps/donald-pfp.jpeg',
+    '/pfps/benson-pfp.jpeg',
   ];
 
   const linkedinUrls: string[] = [
     'https://www.linkedin.com/in/nguyentomt/',
     'https://www.linkedin.com/in/justinshim/',
     'https://www.linkedin.com/in/niteshsunku/',
-    'https://www.linkedin.com/in/donald-twiford-13731a118/',
+    'https://www.linkedin.com/in/donaldtwiford/',
     'https://www.linkedin.com/in/bensonzhen/',
   ];
 
