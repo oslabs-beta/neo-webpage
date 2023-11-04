@@ -1,17 +1,26 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function NavBar() {
 
   return (
-    <nav className="mx-auto my-5 w-[65%]">
+    <nav className="p-5">
       <div className="flex flex-wrap items-center justify-between gap-x-10">
-          <Image className='my-5' src="/Neo-White.png" width={220} height={220} priority={true} alt="Neo Logo" />
-          <div className="flex items-center justify-between gap-x-8 my-auto text-2xl font-light text-white">
-            <a href="#test1">Test 1</a>
-            <a href="#team">Team</a>
-            <a href="#test2">Test 2</a>
-          </div>
+        <div className="flex items-center justify-around gap-x-8">
+          <Image className='mx-5' src="/Neo-White.png" width={125} height={125} priority={true} alt="Neo Logo" />
+          <a className="text-xl" href="#team">Team</a>
         </div>
+        <div className="flex items-center justify-between gap-x-4">
+          <a href="#test1">Test 1</a>
+          <a href="#test2">Test 2</a>
+          <Link href={'https://github.com/nsunku99/neo-extension'}>
+            <Image src="/github-logo.png" width={30} height={30} alt="GitHub Logo with a link"></Image>
+          </Link>
+          <Link href={'https://www.linkedin.com/company/next-metrics/'}>
+            <Image className="rounded" src="/linkedin-logo-white.png" width={30} height={30} alt="LinkedIn Logo with a link"></Image>
+          </Link>
+        </div>
+      </div>
     </nav>
 
   )
