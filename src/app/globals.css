@@ -2,25 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  scroll-behavior: smooth;
-}
-
-body {
-  color: white;
-  background-color: black;
-}
-
-
-.footer {
-  color: whitesmoke;
-  /* border: 1px solid blue; */
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 100vw;
-  height: 15vh;
-  /* position: absolute;
-  bottom: -15vh; */
-  border-top: 1px solid white;
+@font-face {
+  font-family: "UK";
+  src: url("../../public/font/UnitedKingdom.otf");
 }

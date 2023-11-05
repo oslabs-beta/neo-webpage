@@ -5,14 +5,14 @@ import Image from 'next/image'
 
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer className="flex items-center my-7 justify-around h-[15vh] text-sm">
       <div>
         <Image src="/Neo-White.png" width={169} height={169} alt="Neo Logo" />
       </div>
       <div className="font-thin">
         © 2023 NEO, All rights reserved.
       </div>
-      <div className="flex justify-center items-center flex-col font-thin">
+      <div className="flex flex-col justify-around items-center font-thin">
         <p>NEO is an open-source project.</p>
         <p>Help us Improve!</p>
         <Link href="https://github.com/nsunku99/neo-extension">

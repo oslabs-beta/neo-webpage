@@ -9,6 +9,12 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'NEO',
   description: 'NEO Webpage',
+  icons: {
+    icon: ['/favicon_io/favicon.ico'],
+    apple: ['/apple-touch-icon.png'],
+    shortcut: ['/apple-touch-icon.png']
+  },
+  manifest: '/favicon_io/site.webmanifest'
 }
 
 export default function RootLayout({
@@ -17,8 +23,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={`${inter.className} bg-gradient-to-t from-indigo-800/25 via-black to-purple-800/25`}>
+    <html className='scroll-smooth text-[whitesmoke] bg-black bg-gradient-to-t from-indigo-800/25 via-black to-indigo-800/25' lang="en">
+      <body className={inter.className}>
         <NavBar />
         {children}
         <Footer />
