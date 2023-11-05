@@ -12,6 +12,9 @@ export default function NavBar() {
           <a className="text-lg" href="#start">Start</a>
         </div>
         <div className="flex items-center justify-between gap-x-4">
+          <Link href={'https://marketplace.visualstudio.com/items?itemName=NextEngineOptimization.next-engine-optimization'}>
+            <Image src="/code-stable-white.png" width={30} height={30} alt="VSCode Logo with a link"></Image>
+          </Link>
           <Link href={'https://github.com/nsunku99/neo-extension'}>
             <Image src="/github-logo.png" width={30} height={30} alt="GitHub Logo with a link"></Image>
           </Link>
