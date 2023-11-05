@@ -9,7 +9,7 @@ export default function Start() {
           Open an App Router based NextJS Project with the src directory
         </p>
         <Image src='/gifs/openNextProject.gif' height={400} width={800} alt='GIF of Opening NextJS Project'></Image>
-        <Image src='/gifs/openNextProject.gif' height={400} width={800} alt='GIF of Opening NextJS Project'></Image>
+        <Image src='/gifs/downloadExtension.gif' height={400} width={800} alt='GIF of Opening NextJS Project'></Image>
         <p className="flex items-center justify-center">
           Install NEO from the VSCode Marketplace
         </p>
