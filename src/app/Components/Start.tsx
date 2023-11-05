@@ -8,23 +8,23 @@ export default function Start() {
         <p className="flex items-center justify-center">
           Open an App Router based NextJS Project with the src directory
         </p>
-        <Image src='/gifs/openNextProject.gif' height={400} width={800} alt='GIF of Opening NextJS Project'></Image>
-        <Image src='/gifs/downloadExtension.gif' height={400} width={800} alt='GIF of Opening NextJS Project'></Image>
+        <Image className="rounded-xl" src='/gifs/openNextProject.gif' height={400} width={800} alt='GIF of Opening NextJS Project'></Image>
+        <Image className="rounded-xl" src='/gifs/downloadExtension.gif' height={400} width={800} alt='GIF of Opening NextJS Project'></Image>
         <p className="flex items-center justify-center">
           Install NEO from the VSCode Marketplace
         </p>
         <p className="flex items-center justify-center">
           Activate NEO
         </p>
-        <Image src='/gifs/cpActivate.gif' height={400} width={800} alt='GIF of Opening NextJS Project'></Image>
-        <Image src='/gifs/inputLink.gif' height={400} width={800} alt='GIF of Opening NextJS Project'></Image>
+        <Image className="rounded-xl" src='/gifs/cpActivate.gif' height={400} width={800} alt='GIF of Opening NextJS Project'></Image>
+        <Image className="rounded-xl" src='/gifs/inputLink.gif' height={400} width={800} alt='GIF of Opening NextJS Project'></Image>
         <p className="flex items-center justify-center">
           Start Server and Input Your Localhost
         </p>
         <p className="flex items-center justify-center">
           Right Click Any Page Folder, Click NEO:Generate Metrics, and Behold
         </p>
-        <Image src='/gifs/GeneratingMetrics.gif' height={400} width={800} alt='GIF of Opening NextJS Project'></Image>
+        <Image className="rounded-xl" src='/gifs/GeneratingMetrics.gif' height={400} width={800} alt='GIF of Opening NextJS Project'></Image>
       </div>
     </>
   )
