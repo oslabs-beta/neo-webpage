@@ -21,6 +21,9 @@ export default function NavBar() {
           <Link href={'https://www.linkedin.com/company/next-metrics/'}>
             <Image className="rounded" src="/linkedin-logo-white.png" width={30} height={30} alt="LinkedIn Logo with a link"></Image>
           </Link>
+          <Link href={'https://medium.com/@nguyentomt/neo-next-js-technical-seo-metrics-made-easier-85fc3a333a25'}>
+            <Image className="rounded" src="/Medium-Logo.png" width={30} height={30} alt="Medium Logo with a link"></Image>
+          </Link>
         </div>
       </div>
     </nav>
