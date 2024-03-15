@@ -36,15 +36,21 @@ export default function NavBar() {
               <div className="flex flex-col">
                 <a
                   className="text-center text-lg p-4 border-b hover:bg-gray-700"
-                  href="#team"
+                  href="#about"
                 >
-                  Team
+                  About
                 </a>
                 <a
                   className="text-center text-lg p-4 border-b hover:bg-gray-700"
                   href="#start"
                 >
                   Start
+                </a>
+                <a
+                  className="text-center text-lg p-4 border-b hover:bg-gray-700"
+                  href="#team"
+                >
+                  Team
                 </a>
                 <p className="flex">
                   <Link

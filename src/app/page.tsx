@@ -1,3 +1,4 @@
+import About from './Components/About';
 import Contact from './Components/Card';
 import Start from './Components/Start';
 import Image from 'next/image';
@@ -56,6 +57,10 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div id="about">
+        <p className="mt-28 mb-20 text-center font-black text-3xl">About</p>
+        <About />
+      </div>
       <div id="start">
         <p className="mt-28 mb-20 text-center font-black text-3xl">
           Get Started
@@ -67,14 +72,14 @@ export default function Home() {
         <Contact />
       </div>
       <Image
-        className="fixed -z-10 -right-5 top-1/2 rotate-6 -translate-y-1/2 hidden md:block "
+        className="fixed -z-10 -right-5 top-1/2 rotate-6 -translate-y-1/2 "
         src="/nextjsicon.png"
         height={500}
         width={500}
         alt="next.js icon"
       ></Image>
       <Image
-        className="fixed -z-10 left-1 top-1/2 -rotate-12 -translate-y-1/2 hidden md:block "
+        className="fixed -z-10 left-1 top-1/2 -rotate-12 -translate-y-1/2 hidden lg:block "
         src="/donutchart.png"
         height={400}
         width={400}
