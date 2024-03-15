@@ -8,7 +8,7 @@ export default function Home() {
     <main>
       <div className="md:flex md:justify-center items-center m-auto">
         <div className="flex flex-col gap-y-5 justify-center items-center mt-[10dvh]">
-          <p className="flex flex-col font-bold mb-4 md:mb-8 text-4xl md:text-7xl text-center animate-fade-down">
+          <p className="flex flex-col font-bold mb-4 md:mb-8 text-4xl md:text-5xl text-center animate-fade-down">
             SEO Metrics for developers
             <span
               className="text-sm

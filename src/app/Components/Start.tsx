@@ -15,7 +15,7 @@ export default function Start() {
           alt="GIF of Opening NextJS Project"
         ></Image>
         <p className="flex items-center justify-center">
-          2.Install NEO from the VSCode Marketplace
+          2. Install NEO from the VSCode Marketplace
         </p>
         <Image
           className="rounded-xl"
