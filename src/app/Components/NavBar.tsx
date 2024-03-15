@@ -14,7 +14,7 @@ export default function NavBar() {
           width={125}
           height={125}
           priority={true}
-          alt="Neo Logo"
+          alt="Next Engine Optimization Logo"
         />
         <div className="hover:cursor-pointer" onClick={() => setOpen(!open)}>
           <Image
@@ -23,7 +23,7 @@ export default function NavBar() {
             width={60}
             height={60}
             priority={true}
-            alt="Navigation Menu"
+            alt="Next Engine Optimization Navigation Menu"
           />
           {open && (
             <div
@@ -64,7 +64,7 @@ export default function NavBar() {
                       src="/code-stable-white.png"
                       width={30}
                       height={30}
-                      alt="VSCode Logo with a link"
+                      alt="VSCode Logo with a link to Next Engine Optimization's download in the VSCode marketplace"
                     ></Image>
                     vsCode
                   </Link>
@@ -80,7 +80,7 @@ export default function NavBar() {
                       src="/github-logo.png"
                       width={30}
                       height={30}
-                      alt="GitHub Logo with a link"
+                      alt="GitHub Logo with a link to Next Engine Optimization's Open Source GitHub Repository"
                     ></Image>
                     GitHub
                   </Link>
@@ -96,7 +96,7 @@ export default function NavBar() {
                       src="/linkedin-logo-white.png"
                       width={30}
                       height={30}
-                      alt="LinkedIn Logo with a link"
+                      alt="LinkedIn Logo with a link to Next Engine Optimization's LinkedIn Page"
                     ></Image>
                     LinkedIn
                   </Link>
@@ -114,7 +114,7 @@ export default function NavBar() {
                       src="/Medium-Logo.png"
                       width={30}
                       height={30}
-                      alt="Medium Logo with a link"
+                      alt="Medium Logo with a link to an article about Next Engine Optimization"
                     ></Image>
                     Medium
                   </Link>
