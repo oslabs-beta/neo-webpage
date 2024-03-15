@@ -66,6 +66,20 @@ export default function Home() {
         <p className="mt-28 text-center font-black text-3xl">Our Team</p>
         <Contact />
       </div>
+      <Image
+        className="fixed -z-10 -right-5 top-1/2 rotate-6 -translate-y-1/2 hidden md:block "
+        src="/nextjsicon.png"
+        height={500}
+        width={500}
+        alt="next.js icon"
+      ></Image>
+      <Image
+        className="fixed -z-10 left-1 top-1/2 -rotate-12 -translate-y-1/2 hidden md:block "
+        src="/donutchart.png"
+        height={400}
+        width={400}
+        alt="donut icon"
+      ></Image>
     </main>
   );
 }
