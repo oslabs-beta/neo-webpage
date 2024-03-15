@@ -15,7 +15,7 @@ export default function Start() {
           alt="GIF of Opening NextJS Project"
         ></Image>
         <p className="flex items-center justify-center">
-          2. Install NEO from the VSCode Marketplace
+          2. Install &lsquo;NEO Metrics&rsquo; from the VSCode Marketplace
         </p>
         <Image
           className="rounded-xl"
@@ -24,7 +24,9 @@ export default function Start() {
           width={800}
           alt="GIF of Opening NextJS Project"
         ></Image>
-        <p className="flex items-center justify-center">3. Activate NEO</p>
+        <p className="flex items-center justify-center">
+          3.In the command palette, enter &lsquo;Activate NEO&rsquo;
+        </p>
         <Image
           className="rounded-xl"
           src="/gifs/cpActivate.gif"
@@ -33,7 +35,8 @@ export default function Start() {
           alt="GIF of Opening NextJS Project"
         ></Image>
         <p className="flex items-center justify-center">
-          4. Start Server and Input Your Localhost
+          4. Start your server and input Your localhost address and port (e.g.
+          http://localhost:3000)
         </p>
         <Image
           className="rounded-xl"
@@ -43,7 +46,7 @@ export default function Start() {
           alt="GIF of Opening NextJS Project"
         ></Image>
         <p className="flex items-center justify-center">
-          5. Right Click Any Page Folder, Click NEO:Generate Metrics, and Behold
+          5. Right Click Any Folder with a valid page.tsx, then click NEO:Generate Metrics, and Behold
         </p>
         <Image
           className="rounded-xl"

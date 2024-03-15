@@ -4,31 +4,35 @@ import './globals.css';
 import NavBar from './Components/NavBar';
 import Footer from './Components/Footer';
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'NEO',
-  description: 'NEO Webpage',
+  title: 'Next Engine Optimization',
+  description:
+    'The home page for Next Engine Optimization, otherwise known as NEO, NEO is a VSCode extension for Next.js developers to optimize their search engine optimization or SEO during the development process',
   icons: {
     icon: ['/favicon_io/favicon.ico'],
     apple: ['/apple-touch-icon.png'],
-    shortcut: ['/apple-touch-icon.png']
+    shortcut: ['/apple-touch-icon.png'],
   },
-  manifest: '/favicon_io/site.webmanifest'
-}
+  manifest: '/favicon_io/site.webmanifest',
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html className='scroll-smooth text-[whitesmoke] bg-black bg-gradient-to-t from-indigo-800/25 via-black to-indigo-800/25' lang="en">
+    <html
+      className="scroll-smooth text-[whitesmoke] bg-black bg-gradient-to-t from-indigo-800/25 via-black to-indigo-800/25"
+      lang="en"
+    >
       <body className={inter.className}>
         <NavBar />
         {children}
         <Footer />
       </body>
     </html>
-  )
+  );
 }
