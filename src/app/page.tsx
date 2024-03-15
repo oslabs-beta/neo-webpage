@@ -30,7 +30,7 @@ export default function Home() {
               src="/code-stable-white.png"
               width={30}
               height={30}
-              alt="VSCode Logo with a link"
+              alt="VSCode Logo with a link to download Next Engine Optimization on VSCode marketplace"
             ></Image>
             <span className="mx-3">Download NEO</span>
           </Link>
@@ -42,7 +42,7 @@ export default function Home() {
               src="/github-logo.png"
               width={30}
               height={30}
-              alt="GitHub Logo with a link"
+              alt="GitHub Logo with a link to Next Engine Optimization's GitHub Repo"
             ></Image>
             <span className="mx-3">Contribute to NEO</span>
           </Link>
@@ -52,7 +52,7 @@ export default function Home() {
               src="/gifs/GeneratingMetrics.gif"
               height={400}
               width={800}
-              alt="GIF of Opening NextJS Project"
+              alt="Next Engine Optimization Demo GIF of Opening NextJS Project"
             ></Image>
           </div>
         </div>

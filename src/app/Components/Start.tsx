@@ -12,7 +12,7 @@ export default function Start() {
           src="/gifs/openNextProject.gif"
           height={400}
           width={800}
-          alt="GIF of Opening NextJS Project"
+          alt="Next Engine Optimization Demo GIF of Opening NextJS Project"
         ></Image>
         <p className="flex items-center justify-center">
           2. Install &lsquo;NEO Metrics&rsquo; from the VSCode Marketplace
@@ -22,7 +22,7 @@ export default function Start() {
           src="/gifs/downloadExtension.gif"
           height={400}
           width={800}
-          alt="GIF of Opening NextJS Project"
+          alt="Next Engine Optimization Demo GIF of Opening NextJS Project"
         ></Image>
         <p className="flex items-center justify-center">
           3.In the command palette, enter &lsquo;Activate NEO&rsquo;
@@ -32,7 +32,7 @@ export default function Start() {
           src="/gifs/cpActivate.gif"
           height={400}
           width={800}
-          alt="GIF of Opening NextJS Project"
+          alt="Next Engine Optimization Demo GIF of Opening NextJS Project"
         ></Image>
         <p className="flex items-center justify-center">
           4. Start your server and input Your localhost address and port (e.g.
@@ -43,17 +43,18 @@ export default function Start() {
           src="/gifs/inputLink.gif"
           height={400}
           width={800}
-          alt="GIF of Opening NextJS Project"
+          alt="Next Engine Optimization Demo GIF of Opening NextJS Project"
         ></Image>
         <p className="flex items-center justify-center">
-          5. Right Click Any Folder with a valid page.tsx, then click NEO:Generate Metrics, and Behold
+          5. Right Click Any Folder with a valid page.tsx, then click
+          NEO:Generate Metrics, and Behold
         </p>
         <Image
           className="rounded-xl"
           src="/gifs/GeneratingMetrics.gif"
           height={400}
           width={800}
-          alt="GIF of Opening NextJS Project"
+          alt="Next Engine Optimization Demo GIF of Opening NextJS Project"
         ></Image>
       </div>
     </>
