@@ -9,6 +9,7 @@ export default function About() {
       <div className="block md:flex justify-center">
         <div className="md:w-1/2 mb-6 md:mb-0">
           <Image
+            className="rounded-xl"
             src="/gifs/downloadExtension.gif"
             alt="Activating Next Engine Optimization in the command palette"
             height={400}
