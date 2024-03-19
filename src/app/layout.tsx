@@ -4,6 +4,7 @@ import './globals.css';
 import NavBar from './Components/NavBar';
 import Footer from './Components/Footer';
 
+
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
@@ -16,6 +17,9 @@ export const metadata: Metadata = {
     shortcut: ['/apple-touch-icon.png'],
   },
   manifest: '/favicon_io/site.webmanifest',
+  verification: {
+    google: 'JtZ4NT9mZbed9leTdRQr2zYJI-tx-G1cotM9QJlyA5U',
+  },
 };
 
 export default function RootLayout({
